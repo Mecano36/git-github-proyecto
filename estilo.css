@@ -1,0 +1,62 @@
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+overflow-x: hidden;
+}
+
+#menu a {
+font-size: 17px;
+font-weight: bold;
+color: dark grey;
+}
+
+@media (max-width:768px) {
+#Intro {
+width: 90% !important; 
+}    
+}
+
+.servicio fila {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+@media(max-width: 576px) {
+
+   .icono-warp {
+    flex-wrap: wrap;
+    justify-content: center !important;
+   } 
+}
+
+#unidad1 {
+text-align: center
+}
+
+#unidad2 {
+text-align: center; 
+}
+
+#unidad3 {
+text-align: center;
+}
+
+@media (max-width:768px) {
+  #contenido {
+  width: 90% !important; 
+  }    
+  }
+
+#derechos {
+  text-align: center  
+}
+
+.map-wrapper {
+max-width: 600px;
+margin: 0 auto;
+margin-top: 40px;
+}
+
+.googlemap {
+width: 100%;
+}
+
